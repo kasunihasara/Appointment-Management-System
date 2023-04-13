@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <title>Electron</title>
+        <style>
+    
+        </style>
+    </head>
+    <body>
+        <main style="margin-top: 58px;">
+
+
+            <div id="main-body" class="container pt-4">
+    
+            <test-zero></test-zero>
+            </div>
+        </main>
+
+  
+    <script type="module" src="Components/app.js"></script>
+    <script> 
+        function addCustomer() {
+            document.getElementById("main-body").innerHTML = "<add-customer></add-customer>";
+           
+            }
+            function addCDoctor() {
+            document.getElementById("main-body").innerHTML = "<add-doctor></add-doctor>";
+           
+            }
+       
+        function updateCustomer(updateid) {
+        document.getElementById("main-body").innerHTML = `<update-customer updateid=${updateid}></update-customer>`;
+  
+}
+
+        function updateDoctor(updateid) {
+        document.getElementById("main-body").innerHTML = `<update-doctor updateid=${updateid}></update-doctor>`;
+  
+}
+
+        function login() {
+        document.getElementById("main-body").innerHTML = "<log-in></log-in>";
+   
+}
+
+        function testing() {
+        document.getElementById("main-body").innerHTML = "<test-one></test-one>";
+   
+}
+
+        function employee() {
+        document.getElementById("main-body").innerHTML = "<test-two></test-two>";
+   
+}
+
+        function addPatient() {
+        document.getElementById("main-body").innerHTML = "<add-patient></add-patient>";
+           
+}
+
+        function searchDoc(searchvalue) {
+        document.getElementById("main-body").innerHTML = `<search-doctor searchid=${searchvalue}></search-doctor>`;
+     
+}
+
+        function searchDocemp(searchvalue) {
+        document.getElementById("main-body").innerHTML = `<search-doctoremp searchid=${searchvalue}></search-doctoremp>`;
+     
+}
+
+        function searchDoc1(searchvalue) {
+        document.getElementById("main-body").innerHTML = `<search-doctor searchid=${searchvalue}></search-doctor>`;
+     
+}
+        function newpatient() {
+        document.getElementById("main-body").innerHTML = `<new-patient></new-patient>`;
+     
+}    
+
+        function callManagement() {
+        document.getElementById("main-body").innerHTML = `<call-management></call-management>`;
+    
+}
+        function addAppointment(date,time,pid) {
+        document.getElementById("main-body").innerHTML = `<add-appointment date=${date} , time=${time} , pid=${pid} ></add-appointment>`;
+     
+}
+        function patientdetails() {
+        document.getElementById("main-body").innerHTML = `<patient-details></patient-details>`;
+     
+}
+
+        function searchpatient(searchvalue) {
+        document.getElementById("main-body").innerHTML = `<search-patient searchid=${searchvalue}></search-patient>`;
+     
+}
+        function searchpatient1(searchvalue) {
+        document.getElementById("main-body").innerHTML = `<search-patient searchid=${searchvalue}></search-patient>`;
+     
+}
+        function docappointment() {
+        document.getElementById("main-body").innerHTML = `<doc-appointment></doc-appointment>`;
+     
+}
+
+
+        function appointmentDetails(updateid) {
+        document.getElementById("main-body").innerHTML = `<appointment-details updateid=${updateid}></appointment-details>`;
+       
+       }
+       
+       
+        function addAppointment(date,time,pid,room) {
+        document.getElementById("main-body").innerHTML = `<add-appointment date=${date} , time=${time} , pid=${pid}, room=${room} ></add-appointment>`;
+       
+       }
+
+       function addAppointment1() {
+        document.getElementById("main-body").innerHTML = `<add-appointment1></add-appointment1>`;
+       }
+       
+       function updateAppointment(apid) {
+       document.getElementById("main-body").innerHTML = `<update-appointment apid=${apid}></update-appointment>`;
+       
+       }
+
+       function docappointment1() {
+       document.getElementById("main-body").innerHTML = `<doc-appointment1></doc-appointment1>`;
+       }
+
+
+        function appointmentDetails1(updateid) {
+        document.getElementById("main-body").innerHTML = `<appointment-details1 updateid=${updateid}></appointment-details1>`;
+       
+       }
+       function oldpatient() {
+           
+           document.getElementById("main-body").innerHTML = `<old-patient></old-patient>`;
+     
+       }
+
+
+    </script>
+ 
+    </body>
+</html>
